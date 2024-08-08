@@ -49,8 +49,8 @@ def playfair_cipher(plaintext, key, mode):
     
     return result
 
-plaintext = 'She sells sea shells at the sea shore'
-key = 'example key'
+plaintext = 'hello world'
+key = 'hellooo'
 ciphertext = playfair_cipher(plaintext, key, 'encrypt')
 print(ciphertext)
 decrypted_text = playfair_cipher(ciphertext, key, 'decrypt')
