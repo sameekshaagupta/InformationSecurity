@@ -50,7 +50,7 @@ def playfair_cipher(plaintext, key, mode):
     return result
 
 plaintext = 'hello world'
-key = 'hellooo'
+key = 'helloooo'
 ciphertext = playfair_cipher(plaintext, key, 'encrypt')
 print(ciphertext)
 decrypted_text = playfair_cipher(ciphertext, key, 'decrypt')
