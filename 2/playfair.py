@@ -49,7 +49,7 @@ def playfair_cipher(plaintext, key, mode):
     
     return result
 
-plaintext = 'hello world'
+plaintext = 'cipher'
 key = 'helloooo'
 ciphertext = playfair_cipher(plaintext, key, 'encrypt')
 print(ciphertext)

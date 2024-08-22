@@ -64,8 +64,8 @@ def diagonal_playfair_cipher(plaintext, key, mode):
     return result
 
 # Example usage
-plaintext = 'Sameeksha'
-key = ''
+plaintext = 'cipher'
+key = 'playfair'
 ciphertext = diagonal_playfair_cipher(plaintext, key, 'encrypt')
 print("encrypted:",ciphertext)
 decrypted_text = diagonal_playfair_cipher(ciphertext, key, 'decrypt')
