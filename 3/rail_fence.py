@@ -47,7 +47,7 @@ def rail_fence_decrypt(cipher_text, num_rails):
     
     return ''.join(result)
 
-plain_text = "Sameeksha"
+plain_text = "goodmorning"
 num_rails = 5
 
 encrypted_text = rail_fence_encrypt(plain_text, num_rails)
