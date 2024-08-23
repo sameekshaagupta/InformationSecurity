@@ -39,8 +39,6 @@ def rail_fence_decrypt(cipher_text, num_rails, direction='down'):
             if rails[r][c] == '*':
                 rails[r][c] = cipher_text[index]
                 index += 1
-
-    # Read the matrix in zigzag pattern to get the decrypted text
     result = []
     rail = 0
     dir = 1 if direction == 'down' else -1
